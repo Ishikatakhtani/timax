@@ -1,0 +1,185 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#sec1 .c1 h4{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    padding: 0%;
+    margin:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#nav{
+    width: 100%;
+    color: black;
+   /* position: fixed; */
+    height: 50px;
+    background-color: white;
+    display: flex;
+      padding: 10px; 
+      
+}
+#nav nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding-left: 2%;
+    align-items: center;
+}
+#nav nav ul a{
+    text-decoration: none;
+    color: black;
+   
+}
+#nav .t{
+   padding-left: 30%;
+}
+
+
+
+#nav nav ul li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+#nav .sreach{
+    border-radius: 15%;
+    height: 15px;
+    width: 95px;
+}
+#sec3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+#sec3 .c3{
+   justify-content: center;
+}
+
+#sec3 .c4{
+    justify-content: center;
+}
+#sec3 .c5{
+    margin-top:-100px;
+   left: 15%;
+   height: 10%;
+justify-content: center;
+background-color: white;
+position: relative;
+width: 70%;
+display:flex ;
+text-align: center;
+flex-direction: column;
+}
+
+#sec3 .c6{
+    position: relative;
+    margin-top:-50px;
+    padding-left: 65%;
+    font-size:30px;
+    left: 5%;
+}
+
+#sec3 .c7{
+    margin-top:-100px;
+    left: 15%;
+    height: 10%;
+ justify-content: center;
+ background-color: white;
+ position: relative;
+ width: 70%;
+ display:flex ;
+ text-align: center;
+ flex-direction: column;
+}
+
+#sec4 h1{
+    padding-left: 4%;
+    font-size: 40px;
+    font-weight: 300;
+}
+#sec5{
+    width: 100%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: row;
+}
+#sec5 .w1{
+    width: 30%;
+}
+
+#sec5 .c8 p{
+    color: black;
+    font-size: 20px;
+    width: 80%;
+}
+#sec5 div img{
+    height: 300px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+#sec5 .btn1 .b1{
+height: 50px;
+width: 220px;
+background-color: black;
+color: white;
+}
+
+#sec5 .btn1 .b2{
+    height: 50px;
+    width: 220px;
+    color: black;
+    }
+
+    #sec5 .w2{
+        width: 30%;
+       
+    }
+      
+#sec5 .c9 p{
+    color: black;
+    font-size: 20px;
+    width: 80%;
+}
+
+
+
+#sec6{
+    width: 100%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: row;
+}
+#sec6 .bs1{
+    width: 30%;
+}
+
+#sec6 div img{
+    height: 300px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+
+#sec6 .btn1 .b1{
+    height: 50px;
+    width: 220px;
+    background-color: black;
+    color: white;
+    }
+    
+    #sec6 .btn1 .b2{
+        height: 50px;
+        width: 220px;
+        color: black;
+        }
