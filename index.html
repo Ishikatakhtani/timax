@@ -15,8 +15,13 @@
     </div>
     
 </section>
-<header id="nav">  
+<header id="nav"> 
     <nav>
+        <input type="checkbox" id="check">
+ <label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+ </label> 
         <ul>
             <li>
                <a href="index.html">Watches</a> 
@@ -62,7 +67,7 @@
        <div class="c5">
        <p>Marlin Automatic</p>
        <p><b>SHOP NOW</b></p>
-       <!-- <i class="fa-solid fa-arrow-right"></i> -->
+       
        </div>
        <div class="c6">
          <i class="fa-solid fa-arrow-right"></i>
@@ -383,42 +388,58 @@
         </div>
     </section>
 <br>
-       <section id="sec14">
-        <div>
-        <p class="c16"><b>Socialize with style</b></p> </div> <br>
-            <p>Beyond the Website, Find us on Social Media</p>
-       <br>
+       
+   
+<section id="sec15">
+
+    <div class="c21">
+        <p><b>Socialize with style</b></p>  
+            <p class="c22">Beyond the Website, Find us on Social Media</p>
+       <br> 
        <div class="scroll">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIB9DSWyme8fq18j00x9RjaUMI4QRoeJURw&s" alt="">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3g9iB-2pmq9hf6895f4t-on9Zjzc4BFWRtA&s" alt="">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-fZpUL5X2Rulz_wCSQAMQXM6D5DoYsxZtmA&s" alt="">
-    <img src="https://c8.alamy.com/comp/2FMN125/new-york-united-states-10th-may-2021-htc-union-member-wears-timex-indiglo-wr-30m-special-edition-watch-at-rally-to-celebrate-cobra-health-benefits-at-brooklyn-health-center-they-celebrated-announcement-of-the-partial-reopening-of-the-unions-brooklyn-health-center-which-was-due-in-large-part-to-cobra-funding-that-senator-schumer-included-in-the-american-rescue-plan-act-brooklyn-health-center-provides-health-services-to-thousands-of-hospitality-workers-their-pensioners-and-their-families-photo-by-lev-radinpacific-press-credit-pacific-press-media-production-corpalamy-live-news-2FMN125.jpg" alt="">
-    <img src="https://thumbs.dreamstime.com/b/timex-men-watch-brown-leather-belt-timex-men-watch-leather-belt-roman-symbols-193952100.jpg" alt="">
-    <img src="data:image/jpeg;base64,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" alt="">  -->
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8QDs2WBcVBNGNpGXkuXGIjJ1wyEMVSfgyA&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIB9DSWyme8fq18j00x9RjaUMI4QRoeJURw&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3g9iB-2pmq9hf6895f4t-on9Zjzc4BFWRtA&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-fZpUL5X2Rulz_wCSQAMQXM6D5DoYsxZtmA&s" alt="">
+        <img src="https://c8.alamy.com/comp/2FMN125/new-york-united-states-10th-may-2021-htc-union-member-wears-timex-indiglo-wr-30m-special-edition-watch-at-rally-to-celebrate-cobra-health-benefits-at-brooklyn-health-center-they-celebrated-announcement-of-the-partial-reopening-of-the-unions-brooklyn-health-center-which-was-due-in-large-part-to-cobra-funding-that-senator-schumer-included-in-the-american-rescue-plan-act-brooklyn-health-center-provides-health-services-to-thousands-of-hospitality-workers-their-pensioners-and-their-families-photo-by-lev-radinpacific-press-credit-pacific-press-media-production-corpalamy-live-news-2FMN125.jpg" alt="">
+        <img src="https://thumbs.dreamstime.com/b/timex-men-watch-brown-leather-belt-timex-men-watch-leather-belt-roman-symbols-193952100.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR79PU_p82b9auOSxCYB-TaTbFRI6o_WYIgSA&s" alt="">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXHetNTGsdaEBDwJQJGs6ZyB5hgx-8oYK7A&s" alt="">   
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm1omCDTdmPYFDWJA7YDj3lplzlJR6VV-Lrw&s" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMwIobWsdIgfuySGtl4rTEFJD8Z8GyJVebA&s" alt="">    
 </div>
-<div class="m">
-<img src="https://shop.timexindia.com/cdn/shop/files/5020_TX_TC24_170_WHITE_logo_holiday.svg?v=1734092207" alt="">
-<!-- 
-<div class="c17"> -->
-    Be the first to hear about new arrivals, special offers, and invitations to private events
-    <br>
-    <div class="c18">
-        <br>
-    <input type="text" placeholder="E-mail" class="c19">
-    <br>
-    <br>
+    </div>
+    
+</section>
+
+<section id="sec16">
+    <div class="c22">
+    <img src="https://shop.timexindia.com/cdn/shop/files/5020_TX_TC24_170_WHITE_logo_holiday.svg?v=1734092207" alt="">
+   <p>Be the first to hear about new arrivals, special offers, and invitations to private events
+</p>  <br>
+
+    <input type="email" placeholder="Email Address" class="c23">
+     <br>
+     <p class="c24">
     By submitting your email address below you are agreeing to the Privacy Policy and Terms & Conditions.
+</p>
+    
 </div>
-</div>
-<div class="c20">
-    <p>MY TIMEX</p>
+<div class="c25">
+<p>MY TIMEX</p>
     <p>Explore TIMEX</p>
     <p>Help Centre</p>
     <p>Product</p>
 </div>
-</div> 
+<div class="c26"> 
+    <p> <i class="fa-brands fa-instagram"> Instagram</p></i>
+    <br>
+    <p> <i class="fa-brands fa-facebook"> facebook</p></i>
+    <br>
+    <p> <i class="fa-brands fa-x-twitter"> Twitter</p></i>
+    <br>
+    <p> <i class="fa-brands fa-youtube"> Youtube</p></i>
+</div>
+
 </section>
-     
 </body>
 </html>
